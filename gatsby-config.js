@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby GitHub Sandbox`,
+    title: `Christian’s Gatsby Sandbox`,
     siteUrl: `https://gatsbygithubmain.gtsb.io`,
   },
   plugins: [
@@ -14,5 +14,6 @@ module.exports = {
       }
     },
     "gatsby-plugin-mdx",
+    "gatsby-transformer-sharp",
   ],
 }
